@@ -2,6 +2,9 @@ body {
   font-family: "Red Hat Display";
   text-align: center;
   background-image: url("images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  color: hsl(224, 23%, 55%);
 }
 
 h2 {
@@ -10,7 +13,6 @@ h2 {
   color: hsl(223, 47%, 23%);
 }
 p {
-  color: hsl(224, 23%, 55%);
   margin: 5% 10%;
 }
 button {
@@ -22,13 +24,16 @@ button {
   border-style: none;
   border-radius: 10px;
 }
+a {
+  color: hsl(245, 75%, 52%);
+}
 a:hover {
   color: #aa80ff;
 }
 
 .card {
-  width: 35%;
-  margin: 5% auto;
+  width: 30%;
+  margin: 10% auto;
   border-radius: 15px;
 }
 .content {
@@ -76,7 +81,6 @@ a:hover {
 }
 .cancel {
   background-color: white;
-  color: hsl(224, 23%, 55%);
 }
 .cancel:hover {
   color: hsl(223, 47%, 23%);
